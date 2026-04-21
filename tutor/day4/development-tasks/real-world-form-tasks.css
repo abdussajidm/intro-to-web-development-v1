@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6fb;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.page-header,
+.page-footer {
+  text-align: center;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 20px 16px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.task-card {
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.task-card h2 {
+  margin-top: 0;
+  color: #0b4a6f;
+}
+
+.form-layout {
+  border: 1px dashed #9fb3c8;
+  border-radius: 8px;
+  padding: 14px;
+  background: #f9fbff;
+  min-height: 120px;
+}
+
+.form-layout label {
+  font-weight: 600;
+}
+
+.form-layout input,
+.form-layout select,
+.form-layout textarea,
+.form-layout button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #c6d2de;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.form-layout input[type="checkbox"],
+.form-layout input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.form-layout button {
+  background: #0b4a6f;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.notes-box {
+  background: #fff7e6;
+  border: 1px solid #f3d19c;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 12px;
+}
