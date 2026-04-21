@@ -1,0 +1,18 @@
+date: 20th april 2026.
+
+concept of heading tags (h1 to h6)- setting heading levels.
+
+prettier extension.
+
+show old / initial websites https://www.versionmuseum.com/history-of/amazon-website 
+show scaling feature of meta tag on page load. ( play with DC news paper & local history html page )
+show use of viewport meta tag to control layout on mobile browsers.
+show different language web pages.
+
+complete day2 index.html file pending items 
+(explain html code, instead do html for day3 html-history)
+
+complete types-of-tags 
+
+follow agenda from excel syllabus
+

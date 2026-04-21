@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tags</title>
+  </head>
+  <body>
+    <h1>This is an h1!</h1>
+    <h2>This is an h2!</h2>
+    <h3>This is an h3!</h3>
+    <h4>This is an h4!</h4>
+    <h5>This is an h5!</h5>
+    <h6>This is an h6!</h6>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi est
+      sapiente in optio quia inventore quis maxime ullam tenetur?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod,
+      maxime harum cupiditate asperiores, nostrum amet, iste beatae dolore quae
+      tempore? Veniam, rem dolorum? Assumenda nihil velit fugiat id impedit!
+      Maxime quibusdam, dolorum quaerat ducimus inventore sunt pariatur et
+      dolore ipsam. Distinctio eum nobis officiis quam quasi exercitationem
+      eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Accusantium culpa, qui earum quod recusandae fuga tempora possimus enim
+      odio deserunt laudantium eos ipsum aliquam, ratione corporis quae amet nam
+      ut architecto eaque beatae quibusdam! Rerum suscipit itaque officia nemo
+      dicta non, placeat est minima minus eveniet tenetur quaerat illum et!
+    </p>
+    <p>Lorem ipsum dolor sit.</p>
+
+    div - Short for division, a generic container tag for grouping together
+    other things span – A container for small pieces of text.
+    <p>
+      This is <span style="text-decoration: underline">important</span> text
+    </p>
+
+    <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+    <a href="https://www.codepen.io" target="_blank">CodePen</a>
+
+    <ol>
+      <li>The First One</li>
+      <li>The Second One</li>
+      <li>The Third One</li>
+    </ol>
+
+    <ul>
+      <li>An Item in the List</li>
+      <li>Another Item in the List</li>
+      <li>A Yet Different Item in the List</li>
+    </ul>
+
+    <p>
+      A button can be used by JavaScript to respond to a user clicking it, or it
+      can be used by a form to signal a user has completed filling it and it
+      should submit the data.
+    </p>
+
+    <button>Click me! I don't do anything</button>
+
+    <p>
+      img – An image. You use this to load images onto the page. This can be
+      confusing because you can use CSS to bring in images too. The key
+      difference is that when the image is apart of the content, like a diagram
+      that shows data you're talking about or a picture that shows something
+      from the article, it should be an img tag. If it's a nice background image
+      or something that's for decoration of your website, use CSS. refer image
+      tag html file for examples.
+    </p>
+
+    <p>
+      input – Browser inputs. Sometimes you need to gather input from the user.
+    </p>
+    <!-- these are the same, type="text" is the default -->
+    <input />
+    <div>
+      <label for="username">my label</label>
+
+      <input type="text" id="username" />
+    </div>
+
+    <input type="color" />
+    <input type="file" />
+    <input type="number" />
+    <input type="datetime-local" />
+    <input type="radio" />
+    <input type="checkbox" />
+    explain label tag as well here. textarea – Similar to an input but for a lot
+    more text. You'd type long-form responses in here that could have linebreaks
+    in it (a linebreak happens when you hit "return" or "enter" on your
+    keyboard.) Despite never having anything inside of a textarea, it is not a
+    self-closing tag. HTML is a really old language and so we have to live with
+    some old quirks.
+    <textarea></textarea>
+
+    A select is a user-interactive input that a user can select an option from a
+    dropdown menu. Each option needs a value that will be sent back to the
+    server if the user selects that option. What's inside of the option is what
+    shown to the user.
+    <select>
+      <option value="seattle">Seattle</option>
+      <option value="portland">Portland</option>
+      <option value="san-francisco">San Francisco</option>
+    </select>
+
+    A group of html tags related to gathering data from a user. This will be
+    some combination of input, textarea, and select tags. You can then use this
+    form element to send that data to your server. A form tag itself doesn't
+    show anything; it's a just a container for the other tags.
+    <form>
+      <input placeholder="First Name" />
+      <input placeholder="Last Name" />
+    </form>
+
+    <!-- old, deprecated tag from the MySpace days -->
+    <marquee>
+      This is a really old feature that only works in some browsers. You should
+      never use it for a real website.
+    </marquee>
+
+    <!-- hard return  -->
+    <!-- <p>
+  This is some text.
+
+  This is some more text.
+</p> -->
+    <!-- <p>This is some text.</p>
+
+    <p>This is some more text.</p> -->
+
+    <p>
+      This is some text.
+      <br />
+      This is some more text.
+    </p>
+  </body>
+
+  attributes
+  <p>
+    Attributes allow you to modify behavior of an HTML tag. href only works on a
+    tags. You can't add a href to a div and expect to suddenly work as a link.
+    the type attribute on the input. By changing the type you're changing what
+    sort of input is being shown. href and type are specific to a few tags.
+    There are other attributes like class and id that are universal and can be
+    applied to (nearly) all tags.
+  </p>
+  <p>
+    IDs. there are IDs that you may need occasionally. A key thing is that an ID
+    is unique.
+  </p>
+</html>
