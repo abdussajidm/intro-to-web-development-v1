@@ -1,8 +1,8 @@
 complete types-of-tags
 form tags - form, input, textarea, select, option, button
 
-form development - signup form, login form.
-
+form development - login form.
+sign up form - task for students to create a sign up form using form tags and attributes.
 
 
 follow agenda from excel syllabus
