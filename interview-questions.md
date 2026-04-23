@@ -21,3 +21,16 @@ explore emmet shortcuts
 live server,
 emmet,
 prettier
+
+CSS:
+what is a CSS rule?
+what are the different ways to apply CSS to an HTML document?
+what are the different types of CSS selectors?
+
+what are some different ways to specify colors in CSS?
+what is the box model in CSS?
+what are the different display values in CSS?
+what is the difference between relative and absolute units in CSS?
+what are pseudo-classes and pseudo-elements in CSS?
+
+font properties and text properties in CSS.
