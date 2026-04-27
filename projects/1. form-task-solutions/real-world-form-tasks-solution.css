@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6fb;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.page-header,
+.page-footer {
+  text-align: center;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 20px 16px;
+}
+
+.main-nav {
+  margin-top: 12px;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-nav .nav-left {
+  margin-right: auto;
+}
+
+.main-nav a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.main-nav a:hover {
+  background: #1e293b;
+}
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.task-card {
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.task-card h2 {
+  margin-top: 0;
+  color: #0b4a6f;
+}
+
+.form-layout {
+  border: 1px dashed #9fb3c8;
+  border-radius: 8px;
+  padding: 14px;
+  background: #f9fbff;
+}
+
+.form-layout label {
+  font-weight: 600;
+  display: block;
+}
+
+.form-layout input,
+.form-layout select,
+.form-layout textarea,
+.form-layout button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #c6d2de;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.inline-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.inline-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.form-layout input[type="checkbox"],
+.form-layout input[type="radio"] {
+  width: auto;
+  margin: 0;
+}
+
+.form-layout button {
+  background: #0b4a6f;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.subhead {
+  margin: 4px 0 8px;
+  font-weight: 600;
+}
+
+.help-text {
+  margin-top: 10px;
+}

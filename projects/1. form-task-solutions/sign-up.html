@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html, css practice</title>
+    <link rel="stylesheet" href="real-world-form-tasks-solution.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>HTML elements Practice</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li class="nav-left"><a href="index.html">Home</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="index.html">Sign In</a></li>
+          <li><a href="sign-up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="task-card" id="task-2">
+        <h2>Sign Up Page</h2>
+        <p>Registration form for new users.</p>
+
+        <form class="form-layout" action="#" method="post">
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            name="first-name"
+            type="text"
+            placeholder="First name"
+            required
+          />
+
+          <label for="last-name">Last Name</label>
+          <input
+            id="last-name"
+            name="last-name"
+            type="text"
+            placeholder="Last name"
+            required
+          />
+
+          <label for="signup-email">Email</label>
+          <input
+            id="signup-email"
+            name="signup-email"
+            type="email"
+            placeholder="you@example.com"
+            required
+          />
+
+          <label for="phone">Phone Number</label>
+          <input
+            id="phone"
+            name="phone"
+            type="number"
+            placeholder="9876543210"
+            required
+          />
+
+          <label for="dob">Date of Birth</label>
+          <input id="dob" name="dob" type="date" required />
+          <input id="dob" name="dob" type="time" required />
+          <input type="month" />
+          <input type="week" />
+          <input type="datetime-local" />
+
+          <label for="create-password">Create Password</label>
+          <input
+            id="create-password"
+            name="create-password"
+            type="password"
+            placeholder="Create password"
+            required
+          />
+
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            id="confirm-password"
+            name="confirm-password"
+            type="password"
+            placeholder="Confirm password"
+            required
+          />
+
+          <p class="subhead">Account Type</p>
+          <div class="inline-row">
+            <label class="inline-option" for="type-student">
+              <input
+                id="type-student"
+                name="account-type"
+                type="radio"
+                value="student"
+                required
+              />
+              Student
+            </label>
+            <label class="inline-option" for="type-teacher">
+              <input
+                id="type-teacher"
+                name="account-type"
+                type="radio"
+                value="teacher-of st joseph"
+              />
+              Teacher
+            </label>
+          </div>
+
+          <label for="city">City</label>
+          <select id="city" name="city" required>
+            <option value="">Select a city</option>
+            <option value="seattle">Seattle</option>
+            <option value="portland">Portland</option>
+            <option value="san-francisco">San Francisco</option>
+          </select>
+
+          <label for="bio">Short Bio</label>
+          <textarea
+            id="bio"
+            name="bio"
+            rows="4"
+            placeholder="Tell us a little about yourself"
+          ></textarea>
+
+          <label class="inline-option" for="agree-terms">
+            <input
+              id="agree-terms"
+              name="agree-terms"
+              type="checkbox"
+              required
+            />
+            I agree to Terms and Conditions
+          </label>
+          <button type="reset">Reset</button>
+          <button type="submit">Create Account</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>Footer information</p>
+    </footer>
+  </body>
+</html>
