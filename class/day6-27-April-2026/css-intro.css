@@ -1,0 +1,53 @@
+body {
+  background: rgb(240, 219, 219);
+}
+
+h1,
+h2 {
+  color: rgb(84, 78, 78);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  text-align: center;
+}
+
+p {
+  color: rgb(84, 78, 78);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+ul {
+  color: rgb(84, 78, 78);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 20px auto;
+}
+/* body {
+  background: rgb(240, 219, 219);
+  color: rgb(84, 78, 78);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+} */
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  /* line-height: 1.5; */
+  margin: 20px auto;
+}
+
+ul {
+  line-height: 1.5;
+  /* max-width: 600px; */
+  margin: 20px auto;
+}
+
+.font18 {
+  font-size: 18px;
+}

@@ -1,0 +1,18 @@
+why input tags are self-closing tags?
+
+difference between input type button and button tag? 
+  <!-- <input type="button" value="Click Me &#128508;" /> -->
+    <button>
+      Click Me
+      <span class="my-icons">😄 😍 💗</span>
+    </button>
+
+
+benefit of form tag and method novalidate, required attribute,
+
+button type submit, reset, button attributes.
+
+Introduction to CSS ( history, versions)
+
+
+
