@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity</title>
+  </head>
+  <body>
+    <!-- <style>
+      .main-brand-3.title-3 {
+        color: red;
+      }
+
+      .title-3 {
+        color: green;
+      }
+    </style>
+    <h1 class="main-brand-3 title-3">Specificity in CSS</h1>
+    <h1 class="title-3">Specificity in CSS</h1> -->
+
+    <!-- <a
+      href="https://www.amazon.in/Kenstar-HC-45-compatible-Cooler-Room/dp/B0DXQB2ZW8?ref_=pd_ci_mcx_mh_pe_im_d1_hxwPPE_sspa_dk_det_cai_p_1_0&pd_rd_i=B0DXQB2ZW8&pd_rd_w=Vtjli&content-id=amzn1.sym.d1f93add-6486-42ac-94c7-352c77b4cb14&pf_rd_p=d1f93add-6486-42ac-94c7-352c77b4cb14&pf_rd_r=G03BM97HVTT275Q0ZNFB&pd_rd_wg=Opb1A&pd_rd_r=727057d1-5492-4d3d-9a95-e5b1bad33b8c"
+      ><img
+        src="https://m.media-amazon.com/images/I/3181mWtjrlL._MCnd_AC_.jpg"
+        alt="cooler image"
+      />
+    </a> -->
+
+    <!-- <style>
+      h1.main-brand-5 {
+        color: red;
+      }
+
+      .main-brand-5.title-5 {
+        color: orange;
+      }
+
+      .main-brand-5 {
+        color: green;
+      }
+    </style>
+    <h1 class="title-5 main-brand-5">Another Example</h1> -->
+
+    <!-- <style>
+      #site-brand-2 {
+        color: red;
+        border: 1px solid red;
+      }
+
+      .nav-head-2 {
+        color: green !important;
+        border: 1px solid green;
+      }
+    </style>
+    <h1 id="site-brand-2" class="nav-head-2 nav-main-2 other-useful-class-2">
+      The Brand of my Website
+    </h1> -->
+
+    <!-- <style type="text/css">
+      #site-brand {
+        color: red;
+      }
+
+      h1.nav-head.nav-main.other-useful-class {
+        /*
+     * this class is way too specific; never have a class selector so long
+     * it's ridiculous and just to illustrate a point
+     */
+        color: green;
+      }
+    </style>
+    <h1 id="site-brand" class="nav-head nav-main other-useful-class">
+      The Brand of my Website. ID selectors (#site-brand) win over class
+      selectors.
+    </h1> -->
+    <style>
+      #site-brand-2 {
+        color: red;
+        border: 1px solid red;
+      }
+
+      .nav-head-2 {
+        color: green !important;
+        border: 1px solid green;
+      }
+    </style>
+    <h1 id="site-brand-2" class="nav-head-2 nav-main-2 other-useful-class-2">
+      The Brand of my Website. Never use !important. As you can see, it's gets
+      messy quickly and it makes the logic really tough to follow even for
+      experienced devs.
+    </h1>
+  </body>
+</html>
