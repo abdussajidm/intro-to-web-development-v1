@@ -1,6 +1,6 @@
 css colors: named colors, hex codes, rgb, hsl, etc.
 check accessibility of colors. AA and AAA standards.
-hexa decimal system.
+hexa decimal system.(0-9 and A-F).
 
 CSS syntax and selectors: element, class selectors.
 
