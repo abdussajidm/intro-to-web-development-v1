@@ -1,0 +1,38 @@
+What is the difference between HTML and HTML5?
+What are semantic elements?
+How to make a webpage accessible using semantic tags?
+(using semantic tags, labels, alt attributes for images, proper heading structure, etc.)
+What is a <!DOCTYPE> and is it required?
+
+use of meta tags in HTML5 and their role in SEO and responsive design.
+use of <link> tag ?
+what is the use of 'lang' attribute in HTML5?
+
+How do you differentiate between pseudo classes and pseudo elements in modern CSS syntax?
+What does the CSS selector 2n do with nth-child?
+
+
+
+
+
+
+
+what is the role of picture element and srcset attribute?
+
+Importance of <script> and src attribute in HTML5.
+
+implement HTML5 geolocation
+
+How do you handle errors in video/audio elements?
+Performance impact of video/audio elements
+
+Explain Web Storage (Local vs. Session Storage).
+Security considerations of localStorage
+local storage vs indexedDB?
+
+drag and drop API in HTML5 and its use cases.
+
+What is the purpose of the <canvas> element?
+How does the HTML5 File API work?
+
+service workers and their role in building progressive web apps (PWAs).

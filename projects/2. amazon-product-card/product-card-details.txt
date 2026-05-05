@@ -8,7 +8,6 @@ image url: https://m.media-amazon.com/images/I/3181mWtjrlL._MCnd_AC_.jpg
 
 productName: Kenstar
 productDescription: TallDe HC 45 L Room/Personal Air Cooler For Home| Honeycomb Pad |High Speed Fan |40 Ft Powerful Air Throw|Inverter compatible |Portable Cooler-Room|1-Yr Product Warranty|White & Black
-productPrice: ₹1,099.00 
 
 use background image, position to display stars from image.
 stars: 3.9 out of 5 stars

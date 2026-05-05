@@ -1,0 +1,6 @@
+github PR overview.
+
+flexbox css: start with game of flexboxfroggy.
+(create blank html with 10 divs and show flex or restaurant app cards)
+
+task: build product card as per the given design.
