@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox css</title>
+    <style>
+      .container {
+        /* your parent sets your layout, not yourself */
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: 500px;
+
+        border: 1px solid black;
+        /* play with jc. with few boxes and hardocoded height if needed*/
+        justify-content: flex-start;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        border: 1px solid rgb(197, 64, 64);
+      }
+
+      .reverse {
+        flex-direction: row-reverse;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .alignItems {
+        /* vertically center a div. 
+        search: vertically center CSS
+        https://stackoverflow.com/questions/396145/how-can-i-vertically-center-a-div-element-for-all-browsers-using-css 
+        */
+
+        align-items: center;
+        /* 
+        have fixed height of the container and
+         remove the heights from the boxes or it overrules the stretch. 
+         Stretch makes the interior tags stretch to fit whatever container they're put in 
+         (unless they're limited by a height already.) 
+
+         ex: product cards height.
+        */
+        /* align-items: stretch; */
+      }
+
+      /* 
+      ft determines the proportional size of flex items relative to each other. 
+      A flex-grow value of 5 will make an item 5 times larger than an item with a flex-grow value of 1.
+       */
+      /* .box1 {
+        flex-grow: 1;
+      }
+      .box2 {
+        flex-grow: 5;
+      } */
+
+      /* example of product card */
+      .product-card {
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Flexbox Example</h1>
+    </div>
+    <div class="container alignItems">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box">box3</div>
+      <!-- <div class="box">box4</div>
+      <div class="box">box5</div>
+      <div class="box">box6</div>
+      <div class="box">box7</div>
+      <div class="box">box8</div>
+      <div class="box">box9</div> -->
+
+      <!-- <div class="box">box10</div> -->
+
+      <!-- <div class="box product-card">
+        <p>product title</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="box product-card">
+        <p>product title 2</p>
+        <button>Add to Cart</button>
+      </div> -->
+    </div>
+  </body>
+</html>
