@@ -11,3 +11,5 @@ read table.md file for details.
 
 table, caption, tbody, thead, tfoot, tr, td, th
 table styling using css: border, border-collapse, border-spacing, padding, text-align, vertical-align, width, height.
+
+link to table designs: https://docs.google.com/document/d/1S0Wokte8_tBgCMsAsKeGon3S08xjY11hd90k-rMEdrU/edit?usp=sharing
