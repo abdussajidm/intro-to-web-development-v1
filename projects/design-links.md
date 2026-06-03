@@ -2,5 +2,5 @@ link to table designs: https://docs.google.com/document/d/1S0Wokte8_tBgCMsAsKeGo
 
 flipkart products design: https://docs.google.com/document/d/1fP9ugUPYfIM8zd-kFOIofPJW5fqiZQvg9-vauH6YzDQ/edit?tab=t.0
 
-news website design:
+news website and "coffee day" website design:
 https://docs.google.com/document/d/1WuSXWRYo_66n7DPfhyIgf-VDiIRxUCk8AmJ7TQWHTlc/edit?usp=sharing

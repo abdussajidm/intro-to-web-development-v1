@@ -1,0 +1,26 @@
+.parent {
+  margin: 20px;
+  padding: 5rem;
+  background: hsl(240 20% 70%);
+  border: 5px solid black;
+  height: 50vh;
+  width: 50vw;
+}
+
+.child {
+  border: 5px dashed hsl(240 100% 50%);
+  background: hsl(0 0% 100%);
+  padding: 50px;
+
+  /*   position: absolute;
+
+  
+  margin-right: -12px;
+  margin-bottom: -12px; */
+}
+
+body {
+  font-size: 2rem;
+
+  min-block-size: 500vb;
+}
