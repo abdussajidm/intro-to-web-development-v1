@@ -61,16 +61,28 @@ let character = '⭐';
 let timesToRepeat = 5;
 // write your code here
 
+let result = ""
 
+for (let i = 0; i < timesToRepeat; i++) {
+    result = result + character;
+    // console.log(character)
+}
+console.log(result)
 
+result = ""
 
-
-
+while (timesToRepeat > 0) {
+    // console.log(character)
+    result = result + character;
+    timesToRepeat--;
+}
+console.log("while result: ", result)
 
 // you can also use the built-in string method repeat(), padStart() 
 // to achieve the same result without using a loop.
-// "⭐".repeat(5) // "⭐⭐⭐⭐⭐"
-// "".padStart(timesToRepeat, character) // "⭐⭐⭐⭐⭐"
+"⭐s".repeat(15)
+
+"".padStart(timesToRepeat, character) // "⭐⭐⭐⭐⭐"
 
 
 
