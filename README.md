@@ -8,8 +8,8 @@ The curriculum is beginner-friendly and covers:
 - CSS
 - JavaScript
 - Git, GitHub & Deployment basics
-- Chrome Developer Tools
-- Accessibility and other practical web development topics
+- Chrome Developer Tools overview
+- Accessibility overview and other practical web development topics
 
 ## What This Repository Includes
 
@@ -52,7 +52,7 @@ The curriculum is beginner-friendly and covers:
 
 ### 5) Deployment and Developer Tools
 
-- Intro to deploying static websites
+- Intro to deploying static websites with github pages.
 - Debugging and inspection with Chrome DevTools
 - Performance and responsiveness checks
 - Real-world workflow habits
@@ -88,7 +88,7 @@ Optional but helpful:
 
 1. Learn concepts in class examples.
 2. Practice with guided tasks.
-3. Build mini components/pages.
+3. Build mini components/pages in students-submissions folder.
 4. Push your work to GitHub regularly.
 5. Deploy small static projects and review in DevTools.
 
