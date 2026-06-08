@@ -1,12 +1,13 @@
 // functions in JS.
 
-//A function is a bit of re-usable code. Just how we like to re-use CSS classes.
+//A function is a bit of re-usable code. 
+// Just how we like to re-use CSS classes.
 
 function addTwo(number) {
-    return number + 2;
+    return Number(number) + 2;
 }
-const finalAnswer = addTwo(5);
-console.log(finalAnswer);
+const finalAnswer = addTwo('abc');
+console.log("finalAnswer", finalAnswer);
 
 
 // function declaration
@@ -54,13 +55,17 @@ logOutYourHome(myHomeCity, myHomeState, myHomeCountry);
 // (there are some differences but for now don't worry about it.)
 
 // function expression
+// subtract(6, 2) // gives an error because the function is not hoisted like function declarations.
 const subtract = function (a, b) {
     return a - b;
 };
-console.log(subtract(5, 2));
+const result = subtract(5, 2)
+console.log(result);
 
 // arrow function
-const multiply = (a, b) => a * b;
+const multiply = (a, b) => {
+    return a * b;
+};
 console.log(multiply(4, 6));
 
 

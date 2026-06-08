@@ -2,4 +2,4 @@
 
 ## introduction to javascript:
 
-- functions in Javascript, function declaration, function expression, arrow functions, parameters and arguments, return statement, scope and closures.
+- functions in Javascript, function declaration, function expression, arrow functions, parameters and arguments, return statement.
