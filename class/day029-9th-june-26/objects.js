@@ -7,7 +7,7 @@
 */
 
 const person = {
-    name: "Arshad Shaikh",
+    name: "Ashraf Shaikh",
     city: "Karimnagar",
     state: "Telangana",
     favoriteFood: "biryani",
